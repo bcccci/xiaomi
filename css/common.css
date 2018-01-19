@@ -16,3 +16,10 @@ input,button{
     outline: none;
 }
 /*css重置结束*/
+/*header开始*/
+.header .header-head{
+    display: block;
+    height: 120px;
+    background: url("../img/sitead.jpg") no-repeat center;
+}
+/*header结束*/
