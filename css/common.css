@@ -16,10 +16,59 @@ input,button{
     outline: none;
 }
 /*css重置结束*/
+/*wrapper开始*/
+.wrapper{
+    width: 1226px;
+    margin: 0 auto;
+}
+/*wrapper结束*/
 /*header开始*/
 .header .header-head{
     display: block;
     height: 120px;
     background: url("../img/sitead.jpg") no-repeat center;
+}
+.header-footer{
+    height: 40px;
+    background: #333;
+}
+.footer-content a{
+    font-size: 12px;
+    line-height: 40px;
+    color: #b0b0b0;
+}
+.footer-content li{
+    float: left;
+}
+.header-footer li:after{
+    content: '|';
+    margin: 0 5px;
+    color: #424242;
+}
+.header-footer .select:after{
+    content: '';
+}
+.header-footer .cart{
+    height: 40px;
+    width: 120px;
+    float: right;
+    margin: 0 20px;
+}
+.header-footer .cart div{
+    font-size: 12px;
+    line-height: 40px;
+    color: #b0b0b0;
+}
+.cart img{
+    margin: 4px 0;
+}
+.cart-right{
+    float: right;
+}
+.footer-content-center li{
+    float: right;
+    font-size: 12px;
+    line-height: 40px;
+    color: #b0b0b0;
 }
 /*header结束*/
