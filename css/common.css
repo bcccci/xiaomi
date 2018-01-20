@@ -37,6 +37,9 @@ input,button{
     line-height: 40px;
     color: #b0b0b0;
 }
+.footer-content a:hover{
+    color:white;
+}
 .footer-content li{
     float: left;
 }
@@ -71,4 +74,11 @@ input,button{
     line-height: 40px;
     color: #b0b0b0;
 }
+.footer-content-center a{
+    color: #b0b0b0;
+}
+.footer-content-center a:hover{
+    color: #ffffff;
+}
+
 /*header½áÊø*/
