@@ -1,21 +1,3 @@
-/*css重置*/
-*{
-    margin: 0;
-    padding: 0;
-}
-a{
-    text-decoration: none;
-}
-li{
-    list-style: none;
-}
-img{
-    border: 0;
-}
-input,button{
-    outline: none;
-}
-/*css重置结束*/
 /*wrapper开始*/
 .wrapper{
     width: 1226px;
@@ -28,36 +10,36 @@ input,button{
     height: 120px;
     background: url("../img/sitead.jpg") no-repeat center;
 }
-.header-center{
+.header-footer{
     height: 40px;
     background: #333;
 }
-.center-nav a{
+.footer-content a{
     font-size: 12px;
     line-height: 40px;
     color: #b0b0b0;
 }
-.center-nav a:hover{
+.footer-content a:hover{
     color:white;
 }
-.center-nav li{
+.footer-content li{
     float: left;
 }
-.header-center li:after{
+.header-footer li:after{
     content: '|';
     margin: 0 5px;
     color: #424242;
 }
-.header-center .select:after{
+.header-footer .select:after{
     content: '';
 }
-.header-center .cart{
+.header-footer .cart{
     height: 40px;
     width: 120px;
     float: right;
     margin: 0 20px;
 }
-.header-center .cart div{
+.header-footer .cart div{
     font-size: 12px;
     line-height: 40px;
     color: #b0b0b0;
@@ -68,73 +50,45 @@ input,button{
 .cart-right{
     float: right;
 }
-.center-nav-center li{
+.footer-content-center li{
     float: right;
     font-size: 12px;
     line-height: 40px;
     color: #b0b0b0;
 }
-.center-nav-center a{
+.footer-content-center a{
     color: #b0b0b0;
 }
-.center-nav-center a:hover{
+.footer-content-center a:hover{
     color: #ffffff;
 }
-.footer-nav {
+.center-nav {
     line-height: 100px;
 }
 
-.header-footer ul{
+.header-center ul{
     width: 920px;
     height: 100px;
 }
-.header-footer .logo{
+.header-center .logo{
     float: left;
     width: 230px;
     height: 100px;
 }
-.header-footer .logo a{
+.header-center .logo a{
     display: block;
     width: 55px;
     height: 55px;
     margin: 20px 0;
     background: url("../img/logo.png") no-repeat 0;
 }
-.footer-input input{
+.center-input input{
     float: right;
-    margin: 20px 0;
 }
-.footer-input-search{
-    border: 1px solid #e0e0e0;
-    padding: 0 10px;
-    width: 245px;
-    height: 50px;
-}
-.footer-input-submit{
-    left: 244px;
-    outline: 0;
-    border: 1px solid #e0e0e0;
-    padding: 1px 6px;
-    width: 52px;
-    height: 52px;
-    background: transparent;
-}
-.footer-nav li{
+.center-nav li{
     float: left;
 }
-.footer-nav li:after{
+.center-nav li:after{
     content: '';
     margin: 0 10px;
 }
-.footer-nav a{
-    color: inherit;
-}
-.center-nav .cart-hover{
-    background: #ffffff;
-    width: 350px;
-    height: 100px;
-}
-.center-nav .cart:hover .cart-hover{
-
-}
-/*header结束*/
