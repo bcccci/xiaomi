@@ -31,6 +31,8 @@ input,button{
 .header-center{
     height: 40px;
     background: #333;
+    position: relative;
+    z-index: 800;
 }
 .center-nav a{
     font-size: 12px;
@@ -55,15 +57,15 @@ input,button{
     height: 40px;
     width: 120px;
     float: right;
-    margin: 0 20px;
+    margin-left: 20px;
 }
-.header-center .cart div{
+.header-center .cart-right {
     font-size: 12px;
     line-height: 40px;
     color: #b0b0b0;
 }
 .cart img{
-    margin: 4px 0;
+    margin-top: 4px;
 }
 .cart-right{
     float: right;
@@ -83,7 +85,10 @@ input,button{
 .footer-nav {
     line-height: 100px;
 }
-
+.header-footer{
+    position: relative;
+    z-index: 700;
+}
 .header-footer ul{
     width: 920px;
     height: 100px;
@@ -129,11 +134,22 @@ input,button{
 .footer-nav a{
     color: inherit;
 }
-.center-nav .cart-hover{
-    width: 350px;
+.cart .cart-hover{
+    float: right;
+    width: 320px;
     height: 100px;
+    display: none;
+    background: #ffffff;
+    line-height: 100px;
+    text-align: center;
+    font-size: 12px;
+    color: #424242;
 }
-.center-nav .cart:hover .cart-hover{
-
+.cart:hover .cart-hover{
+display: block;
+}
+.footer-menu{
+    height: 200px;
+    background: #999;
 }
 /*header½áÊø*/
